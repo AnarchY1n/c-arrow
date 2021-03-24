@@ -1,6 +1,6 @@
 [package]
 name = "c-arrow"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Rein1m <anarchyin@protonmail.com>"]
 edition = "2018"
 description = "This Rust library can make you use the arrow operater `->` to access row pointers' fields, which is like C/C++."
