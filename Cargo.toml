@@ -1,10 +1,11 @@
 [package]
 name = "c-arrow"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Rein1m <anarchyin@protonmail.com>"]
 edition = "2018"
+repository = "https://github.com/AnarchY1n/c-arrow"
 documentation = "https://docs.rs/c-arrow"
-description = "This Rust library can make you use the arrow operater `->` to access row pointers' fields, which is like C/C++."
+description = "This Rust library allows you to use the arrow operator -> to access the field of the row pointer, just like C/C++."
 license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
