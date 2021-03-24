@@ -1,2 +1,2 @@
 # c-arrow
-This Rust library can make you use the arrow operater `->` to access row pointers' fields, which is like C/C++.
+This Rust library allows you to use the arrow operator `->` to access the field of the row pointer, just like C/C++.
