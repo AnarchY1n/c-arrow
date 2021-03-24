@@ -5,11 +5,11 @@
 //!
 //! get a mutable reference of the pointed field.
 //!
-//! `pt![`\<link\> = \<expression\>`];`
+//! `pt![`\<link\> `=` \<expression\>`];`
 //!
 //! assign expression to the pointed field.
 //!
-//! `pt![`\<link\> = \<link\>`];`
+//! `pt![`\<link\> `=` \<link\>`];`
 //!
 //! assign the pointed field to the other pointed field.
 //!
