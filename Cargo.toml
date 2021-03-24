@@ -1,6 +1,6 @@
 [package]
 name = "c-arrow"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["Rein1m <anarchyin@protonmail.com>"]
 edition = "2018"
 repository = "https://github.com/AnarchY1n/c-arrow"
