@@ -1,5 +1,5 @@
 //! # Description
-//! This Rust library allows you to use the arrow operator -> to access the field of the row pointer, just like C/C++.
+//! This Rust library allows you to use the arrow operator `->` to access the field of the row pointer, just like C/C++.
 //! # Usage
 //! `pt![`\<link\>`]`
 //!
@@ -28,11 +28,12 @@
 //! "abcdefgh"
 //!     .chars()
 //!     .for_each(|c| stack.push(c));
-//!
-//! use c_arrow::{ pt, ref_pt };
-//! let top_back = pt![stack.top->back];
-//! pt![back_of(top_back)->back->data = 'x'];
-//! pt![stack.top->backs(4)->data = stack.back_of_top()->data];
+//! unsafe {
+//!     use c_arrow::{ pt, ref_pt };
+//!     let top_back = pt![stack.top->back];
+//!     pt![back_of(top_back)->back->data = 'x'];
+//!     pt![stack.top->backs(4)->data = stack.back_of_top()->data];
+//! }
 //! ```
 
 pub mod c_arrow;
